@@ -7,7 +7,20 @@ description: Use when writing, reviewing, or modifying code and the user wants s
 
 Use this skill when editing code, reviewing code, debugging, or making implementation decisions.
 
-## Principles
+## 适用场景
+
+- Writing, reviewing, or modifying code.
+- Fixing bugs with a limited scope.
+- Making small product or refactor changes where maintainability matters.
+- Reviewing code and prioritizing real defects over style preferences.
+
+## 不适用场景
+
+- The user asks for pure brainstorming with no code changes.
+- The task requires a domain-specific workflow that should use a more specific skill first.
+- The user explicitly asks for a large redesign or architecture proposal before implementation.
+
+## 工作流
 
 1. Think before editing.
    - Understand the goal, existing code, constraints, and likely failure modes.
@@ -49,3 +62,15 @@ Use this skill when editing code, reviewing code, debugging, or making implement
    - Briefly explain what you are checking and why.
    - Before editing files, state what you are about to change.
    - After finishing, summarize what changed and how it was verified.
+
+## 验证方式
+
+- Run the most relevant test, type check, lint, build, or smoke check when feasible.
+- Prefer narrow verification for narrow changes and broader verification for shared behavior.
+- If verification cannot be run, state exactly what was not run and why.
+
+## 安全边界
+
+- Do not revert user changes unless explicitly asked.
+- Do not introduce new dependencies or broad refactors without a clear need.
+- Do not claim code is fixed without evidence from tests, tools, or direct inspection.

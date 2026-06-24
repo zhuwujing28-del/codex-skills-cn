@@ -4,6 +4,8 @@
 
 这个项目不是简单搬运链接，而是把好用的 Codex skills、开发原则和工具接入方式整理成中文说明，并尽量补齐适用场景、安装方式、使用边界和示例。
 
+很多中文开发者已经开始用 Codex 参与开源维护、代码审查、issue triage、文档整理和自动化开发，但高质量中文 skill 仍然很少。本仓库希望把这些工作流沉淀为可复用、可审查、可维护的开源资产。
+
 ## 项目目标
 
 - 收集适合 Codex 的实用 skills 和工作流。
@@ -11,13 +13,29 @@
 - 记录每个 skill 适合做什么、不适合做什么。
 - 提供可复制的 `SKILL.md` 模板和目录规范。
 - 帮助新用户更安全、更有效地使用 Codex。
+- 帮助中文开源维护者更高效地处理 issue、PR、release 和项目 onboarding。
 
 ## 当前内容
 
 | Skill | 用途 | 状态 |
 | --- | --- | --- |
 | `karpathy-style-coding` | 小步、直接、可验证的编码原则 | 初版 |
+| `repo-onboarding-cn` | 陌生仓库入门、架构地图、运行和验证方式整理 | 初版 |
+| `pr-review-cn` | 中文 PR/code review，聚焦 bug、回归、测试缺口 | 初版 |
+| `issue-triage-cn` | 中文 issue 分类、优先级、标签和维护者回复 | 初版 |
+| `release-notes-cn` | 从 commits/PR/diff 生成中文发版说明和升级提示 | 初版 |
+| `openai-docs-cn` | 基于 OpenAI 官方资料回答中文 API、模型和 Codex 开发问题 | 初版 |
 | `scrapling-web-extraction` | 使用 Scrapling 做网页采集、动态页面提取和 AI 友好清洗 | 初版 |
+
+## 推荐使用路径
+
+如果你刚开始用 Codex 维护项目，可以按这个顺序试：
+
+1. `repo-onboarding-cn`：先让 Codex 读项目，输出项目地图和风险区域。
+2. `issue-triage-cn`：把模糊 issue 转成可执行维护动作。
+3. `pr-review-cn`：合并前做一次中文 review。
+4. `release-notes-cn`：发版时把技术变更整理成用户能读懂的说明。
+5. `karpathy-style-coding`：日常修 bug 和小功能时约束 Codex 小步、直接、可验证。
 
 ## 目录结构
 
@@ -27,8 +45,11 @@ codex-skills-cn/
     skill-name/
       SKILL.md
       README.md
+  scripts/
+    validate-skills.py
   docs/
     skill-template.md
+    codex-skill-install.md
   CONTRIBUTING.md
   ROADMAP.md
   LICENSE
@@ -44,12 +65,44 @@ Windows 示例：
 Copy-Item -Recurse .\skills\karpathy-style-coding C:\Users\<你的用户名>\.codex\skills\
 ```
 
+更多安装方式见 [`docs/codex-skill-install.md`](docs/codex-skill-install.md)。
+
+## 质量检查
+
+本仓库提供一个轻量检查脚本，确保每个 skill 至少包含必要元数据和关键章节：
+
+```powershell
+python .\scripts\validate-skills.py
+```
+
+检查范围包括：
+
+- `SKILL.md` 是否存在。
+- frontmatter 是否包含 `name` 和 `description`。
+- 目录名是否与 `name` 一致。
+- 是否包含适用场景、边界、工作流、验证方式等基础内容。
+
 ## 收录原则
 
 - 优先收录真实可用、维护成本低的 skill。
 - 每个 skill 必须说明触发场景、使用边界和验证方式。
 - 不收录鼓励绕过访问控制、侵犯隐私或规避网站规则的内容。
 - 不为追热点堆砌空壳 skill。
+- 对工具类 skill，优先说明合法合规边界、失败模式和验证方法。
+- 对开源维护类 skill，优先服务 issue、PR、release、onboarding 等真实协作场景。
+
+## OpenAI Codex for Open Source 申请说明
+
+本仓库计划申请 OpenAI Codex for Open Source 支持。当前维护重点：
+
+- 扩充中文 Codex skill 基础库。
+- 建立可审查的 skill 质量标准。
+- 提供面向开源维护者的工作流样例。
+- 收集真实项目使用反馈，并据此改进 skill。
+
+如果你也是中文开源维护者，欢迎提交 issue，描述你最希望 Codex 帮你处理的维护场景。
+
+申请材料草稿见 [`docs/codex-for-oss-application-notes.md`](docs/codex-for-oss-application-notes.md)。
 
 ## 许可证
 
