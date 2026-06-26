@@ -2,7 +2,7 @@
 
 ## 近期
 
-- 补充开源维护高频场景 skills：repo onboarding、issue triage、PR review、release notes。
+- 补充开源维护高频场景 skills：repo onboarding、issue triage、PR review、CI 排查、release notes。
 - 为每个 skill 增加中文使用示例和边界说明。
 - 增加 Windows/macOS/Linux 安装说明。
 - 增加常见问题：skill、plugin、MCP、个性化设置的区别。

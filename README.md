@@ -23,6 +23,7 @@
 | `repo-onboarding-cn` | 陌生仓库入门、架构地图、运行和验证方式整理 | 初版 |
 | `pr-review-cn` | 中文 PR/code review，聚焦 bug、回归、测试缺口 | 初版 |
 | `issue-triage-cn` | 中文 issue 分类、优先级、标签和维护者回复 | 初版 |
+| `github-actions-ci-cn` | 中文 GitHub Actions CI 失败排查和维护者回复 | 初版 |
 | `release-notes-cn` | 从 commits/PR/diff 生成中文发版说明和升级提示 | 初版 |
 | `openai-docs-cn` | 基于 OpenAI 官方资料回答中文 API、模型和 Codex 开发问题 | 初版 |
 | `scrapling-web-extraction` | 使用 Scrapling 做网页采集、动态页面提取和 AI 友好清洗 | 初版 |
@@ -34,8 +35,9 @@
 1. `repo-onboarding-cn`：先让 Codex 读项目，输出项目地图和风险区域。
 2. `issue-triage-cn`：把模糊 issue 转成可执行维护动作。
 3. `pr-review-cn`：合并前做一次中文 review。
-4. `release-notes-cn`：发版时把技术变更整理成用户能读懂的说明。
-5. `karpathy-style-coding`：日常修 bug 和小功能时约束 Codex 小步、直接、可验证。
+4. `github-actions-ci-cn`：CI 挂掉时定位失败 job、原因和修复动作。
+5. `release-notes-cn`：发版时把技术变更整理成用户能读懂的说明。
+6. `karpathy-style-coding`：日常修 bug 和小功能时约束 Codex 小步、直接、可验证。
 
 ## 目录结构
 
