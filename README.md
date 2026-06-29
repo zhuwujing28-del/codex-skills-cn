@@ -52,7 +52,9 @@ codex-skills-cn/
   docs/
     skill-template.md
     codex-skill-install.md
+    release-readiness.md
   CONTRIBUTING.md
+  CHANGELOG.md
   ROADMAP.md
   LICENSE
 ```
