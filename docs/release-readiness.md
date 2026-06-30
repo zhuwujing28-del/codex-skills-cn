@@ -6,6 +6,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 
 - Skills: 8
 - Validation: `python scripts/validate-skills.py` passes
+- CI: GitHub Actions runs the same validation on push and pull request
 - Maintainer workflow coverage:
   - repository onboarding
   - issue triage
@@ -20,7 +21,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 
 - [ ] Add 2-4 more high-quality skills or example outputs.
 - [ ] Add at least one sample output for issue triage, PR review, or CI diagnosis.
-- [ ] Add README badge after CI is added.
+- [ ] Add README badge after the first workflow run is visible.
 - [ ] Confirm installation instructions on Windows.
 - [ ] Tag `v0.1.0`.
 

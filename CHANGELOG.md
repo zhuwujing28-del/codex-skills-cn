@@ -4,6 +4,7 @@
 
 ### Added
 
+- Added GitHub Actions validation for skill structure checks.
 - Added `github-actions-ci-cn` for Chinese GitHub Actions CI diagnosis and maintainer replies.
 - Added `repo-onboarding-cn` for unfamiliar repository onboarding.
 - Added `issue-triage-cn` for issue classification, priority, labels, and maintainer responses.
