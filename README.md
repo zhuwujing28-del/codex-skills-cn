@@ -50,6 +50,8 @@ codex-skills-cn/
   scripts/
     validate-skills.py
   docs/
+    examples/
+      issue-triage-sample.md
     skill-template.md
     codex-skill-install.md
     release-readiness.md
