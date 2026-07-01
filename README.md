@@ -56,10 +56,13 @@ codex-skills-cn/
   docs/
     examples/
       issue-triage-sample.md
+      ci-failure-output.md
+      security-advisory-output.md
     skill-template.md
     codex-skill-install.md
     release-readiness.md
   CONTRIBUTING.md
+  APPLICATION.md
   CHANGELOG.md
   ROADMAP.md
   LICENSE
@@ -112,7 +115,7 @@ python .\scripts\validate-skills.py
 
 如果你也是中文开源维护者，欢迎提交 issue，描述你最希望 Codex 帮你处理的维护场景。
 
-申请材料草稿见 [`docs/codex-for-oss-application-notes.md`](docs/codex-for-oss-application-notes.md)。
+申请材料草稿见 [`docs/codex-for-oss-application-notes.md`](docs/codex-for-oss-application-notes.md)。更完整的申请说明见 [`APPLICATION.md`](APPLICATION.md)。
 
 ## 许可证
 
