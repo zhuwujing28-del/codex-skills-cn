@@ -59,7 +59,7 @@ codex-skills-cn/
       ci-failure-output.md
       security-advisory-output.md
     skill-template.md
-    codex-skill-install.md
+    codex-skill-installation.md
     release-readiness.md
   CONTRIBUTING.md
   APPLICATION.md
@@ -78,7 +78,7 @@ Windows 示例：
 Copy-Item -Recurse .\skills\karpathy-style-coding C:\Users\<你的用户名>\.codex\skills\
 ```
 
-更多安装方式见 [`docs/codex-skill-install.md`](docs/codex-skill-install.md)。
+更多安装方式见 [`docs/codex-skill-installation.md`](docs/codex-skill-installation.md)。
 
 ## 质量检查
 

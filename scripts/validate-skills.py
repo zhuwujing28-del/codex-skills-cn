@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS_DIR = ROOT / "skills"
+MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 
 REQUIRED_SECTIONS = [
     "适用场景",
@@ -65,6 +66,36 @@ def validate_skill(path: Path) -> list[str]:
     return errors
 
 
+def validate_markdown_links() -> list[str]:
+    errors: list[str] = []
+    for md_path in sorted(ROOT.rglob("*.md")):
+        text = md_path.read_text(encoding="utf-8")
+        for match in MARKDOWN_LINK_RE.finditer(text):
+            target = match.group(1).strip()
+            if (
+                not target
+                or target.startswith(("#", "http://", "https://", "mailto:"))
+                or "://" in target
+            ):
+                continue
+
+            link_path = target.split("#", 1)[0]
+            if not link_path:
+                continue
+
+            resolved = (md_path.parent / link_path).resolve()
+            try:
+                resolved.relative_to(ROOT)
+            except ValueError:
+                continue
+
+            if not resolved.exists():
+                rel_md = md_path.relative_to(ROOT)
+                errors.append(f"{rel_md}: broken local link {target}")
+
+    return errors
+
+
 def main() -> int:
     if not SKILLS_DIR.exists():
         print("skills directory not found", file=sys.stderr)
@@ -74,6 +105,7 @@ def main() -> int:
     all_errors: list[str] = []
     for path in skill_dirs:
         all_errors.extend(validate_skill(path))
+    all_errors.extend(validate_markdown_links())
 
     if all_errors:
         print("Skill validation failed:")
