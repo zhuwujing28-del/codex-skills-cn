@@ -4,7 +4,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 
 ## Current status
 
-- Skills: 8
+- Skills: 10
 - Validation: `python scripts/validate-skills.py` passes
 - CI: GitHub Actions runs the same validation on push and pull request
 - Maintainer workflow coverage:
@@ -12,6 +12,8 @@ This document tracks what is needed before tagging `v0.1.0`.
   - issue triage
   - PR review
   - CI failure diagnosis
+  - dependency upgrade review
+  - security advisory triage
   - release notes
   - OpenAI docs assistance
   - web extraction
@@ -19,7 +21,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 
 ## Remaining before v0.1.0
 
-- [ ] Add 2-4 more high-quality skills or example outputs.
+- [x] Add 2-4 more high-quality skills or example outputs.
 - [x] Add at least one sample output for issue triage, PR review, or CI diagnosis.
 - [ ] Add README badge after the first workflow run is visible.
 - [ ] Confirm installation instructions on Windows.
