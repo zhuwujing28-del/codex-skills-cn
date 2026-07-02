@@ -7,6 +7,7 @@
 - Added `APPLICATION.md` for Codex for Open Source application preparation.
 - Added sample CI failure diagnosis output.
 - Added sample security advisory triage output.
+- Added `context-budget-cn` for Codex context and token budget management.
 - Added a realistic `issue-triage-cn` sample output for maintainer workflow documentation.
 - Added GitHub Actions validation for skill structure checks.
 - Added `github-actions-ci-cn` for Chinese GitHub Actions CI diagnosis and maintainer replies.

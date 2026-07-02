@@ -26,6 +26,7 @@
 | `github-actions-ci-cn` | 中文 GitHub Actions CI 失败排查和维护者回复 | 初版 |
 | `dependency-upgrade-cn` | 中文依赖升级、Dependabot/Renovate PR 风险评估和验证计划 | 初版 |
 | `security-advisory-triage-cn` | 中文安全公告、漏洞影响评估和负责任披露 triage | 初版 |
+| `context-budget-cn` | 中文 Codex context / token budget 管理和渐进式 skill 设计 | 初版 |
 | `release-notes-cn` | 从 commits/PR/diff 生成中文发版说明和升级提示 | 初版 |
 | `openai-docs-cn` | 基于 OpenAI 官方资料回答中文 API、模型和 Codex 开发问题 | 初版 |
 | `scrapling-web-extraction` | 使用 Scrapling 做网页采集、动态页面提取和 AI 友好清洗 | 初版 |
@@ -40,8 +41,9 @@
 4. `github-actions-ci-cn`：CI 挂掉时定位失败 job、原因和修复动作。
 5. `dependency-upgrade-cn`：审查依赖升级和安全升级 PR。
 6. `security-advisory-triage-cn`：处理漏洞报告和安全公告。
-7. `release-notes-cn`：发版时把技术变更整理成用户能读懂的说明。
-8. `karpathy-style-coding`：日常修 bug 和小功能时约束 Codex 小步、直接、可验证。
+7. `context-budget-cn`：压缩长上下文，控制 token 和 skill 膨胀。
+8. `release-notes-cn`：发版时把技术变更整理成用户能读懂的说明。
+9. `karpathy-style-coding`：日常修 bug 和小功能时约束 Codex 小步、直接、可验证。
 
 ## 目录结构
 
