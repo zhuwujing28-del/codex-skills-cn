@@ -20,6 +20,7 @@
 - Added `scripts/validate-skills.py` for skill structure validation.
 - Added issue templates for skill requests and bug reports.
 - Added Codex for Open Source application notes.
+- Added `SECURITY.md` with reporting scope and maintainer response guidance.
 
 ### Improved
 
