@@ -26,6 +26,7 @@
 ### Improved
 
 - Extended validation to catch broken local Markdown links.
+- Completed Windows Codex skill installation instructions.
 - Expanded README with maintainer workflow positioning and recommended usage path.
 - Expanded contribution guide with quality standards.
 - Updated roadmap toward OSS maintainer workflows and real usage examples.
