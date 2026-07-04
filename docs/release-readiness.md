@@ -7,6 +7,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - Skills: 11
 - Validation: `python scripts/validate-skills.py` passes
 - CI: GitHub Actions runs the same validation on push and pull request
+- Latest maintainer readiness report: [`maintainer-readiness-2026-07-04.md`](maintainer-readiness-2026-07-04.md)
 - Maintainer workflow coverage:
   - repository onboarding
   - issue triage
