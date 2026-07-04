@@ -1,5 +1,7 @@
 # codex-skills-cn
 
+[![validate](https://github.com/zhuwujing28-del/codex-skills-cn/actions/workflows/validate.yml/badge.svg)](https://github.com/zhuwujing28-del/codex-skills-cn/actions/workflows/validate.yml)
+
 面向中文用户的 Codex skills 收藏、适配和维护仓库。
 
 这个项目不是简单搬运链接，而是把好用的 Codex skills、开发原则和工具接入方式整理成中文说明，并尽量补齐适用场景、安装方式、使用边界和示例。

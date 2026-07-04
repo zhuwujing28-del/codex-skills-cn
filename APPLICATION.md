@@ -44,7 +44,7 @@ Codex is used to:
 
 ## Current status
 
-- 10 maintainer-oriented skills.
+- 11 maintainer-oriented skills.
 - Validation script and GitHub Actions workflow.
 - Changelog and release readiness notes.
 - Sample maintainer workflow outputs.

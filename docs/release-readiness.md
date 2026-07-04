@@ -25,7 +25,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 
 - [x] Add 2-4 more high-quality skills or example outputs.
 - [x] Add at least one sample output for issue triage, PR review, or CI diagnosis.
-- [ ] Add README badge after the first workflow run is visible.
+- [x] Add README badge after the first workflow run is visible.
 - [x] Confirm installation instructions on Windows.
 - [ ] Tag `v0.1.0`.
 
