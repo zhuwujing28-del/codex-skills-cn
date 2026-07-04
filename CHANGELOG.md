@@ -23,6 +23,7 @@
 - Added Codex for Open Source application notes.
 - Added `SECURITY.md` with reporting scope and maintainer response guidance.
 - Added a dated maintainer readiness report for `v0.1.0` preparation.
+- Added README validation badge for visible CI status.
 
 ### Improved
 
