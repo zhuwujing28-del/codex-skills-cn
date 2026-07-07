@@ -8,6 +8,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - Validation: `python scripts/validate-skills.py` passes
 - CI: GitHub Actions runs the same validation on push and pull request, surfaced by a README badge
 - Latest maintainer readiness report: [`maintainer-readiness-2026-07-04.md`](maintainer-readiness-2026-07-04.md)
+- Release checklist: [`release-checklist.md`](release-checklist.md)
 - Maintainer workflow coverage:
   - repository onboarding
   - issue triage
@@ -27,6 +28,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - [x] Add at least one sample output for issue triage, PR review, or CI diagnosis.
 - [x] Add README badge after the first workflow run is visible.
 - [x] Confirm installation instructions on Windows.
+- [x] Add a first-release checklist.
 - [ ] Tag `v0.1.0`.
 
 ## Release criteria

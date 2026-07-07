@@ -24,6 +24,7 @@
 - Added `SECURITY.md` with reporting scope and maintainer response guidance.
 - Added a dated maintainer readiness report for `v0.1.0` preparation.
 - Added README validation badge for visible CI status.
+- Added a `v0.1.0` release checklist for tag readiness review.
 
 ### Improved
 
