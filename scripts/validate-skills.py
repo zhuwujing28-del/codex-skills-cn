@@ -38,6 +38,10 @@ def validate_skill(path: Path) -> list[str]:
     if not skill_md.exists():
         return [f"{path.name}: missing SKILL.md"]
 
+    readme_md = path / "README.md"
+    if not readme_md.exists():
+        errors.append(f"{path.name}: missing README.md")
+
     text = skill_md.read_text(encoding="utf-8")
     meta = parse_frontmatter(text)
     name = meta.get("name")

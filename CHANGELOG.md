@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+_No unreleased changes._
+
+## v0.1.0 - 2026-07-08
+
+The first tagged release includes a stable early collection of Chinese Codex skills for open-source maintainer workflows.
+
 ### Added
 
 - Added `APPLICATION.md` for Codex for Open Source application preparation.
@@ -29,16 +35,8 @@
 ### Improved
 
 - Extended validation to catch broken local Markdown links.
+- Extended validation to require a `README.md` beside every skill `SKILL.md`.
 - Completed Windows Codex skill installation instructions.
 - Expanded README with maintainer workflow positioning and recommended usage path.
 - Expanded contribution guide with quality standards.
 - Updated roadmap toward OSS maintainer workflows and real usage examples.
-
-## v0.1.0 - Planned
-
-The first tagged release should include:
-
-- 10-12 stable Chinese Codex skills.
-- Validation passing for all skills.
-- At least one usage report or example output for maintainer workflows.
-- Clear installation and contribution guidance.

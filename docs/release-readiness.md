@@ -5,7 +5,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 ## Current status
 
 - Skills: 11
-- Validation: `python scripts/validate-skills.py` passes
+- Validation: `python scripts/validate-skills.py` passes and checks each skill package includes `SKILL.md` plus `README.md`
 - CI: GitHub Actions runs the same validation on push and pull request, surfaced by a README badge
 - Latest maintainer readiness report: [`maintainer-readiness-2026-07-04.md`](maintainer-readiness-2026-07-04.md)
 - Release checklist: [`release-checklist.md`](release-checklist.md)
@@ -36,6 +36,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 Do not tag `v0.1.0` just because the repository exists. Tag only when:
 
 - all skills pass validation,
+- each skill package includes a maintainer-facing `README.md`,
 - the README explains who the project serves,
 - examples show realistic maintainer workflows,
 - and the changelog clearly describes what is included.
