@@ -4,6 +4,7 @@
 
 ### Added
 
+- Added a `v0.1.1` patch-release checklist for packaging post-`v0.1.0` hardening without moving the published tag.
 - Added a post-`v0.1.0` audit documenting the published tag target and follow-up patch-release path.
 
 ## v0.1.0 - 2026-07-08
