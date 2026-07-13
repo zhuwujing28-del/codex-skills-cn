@@ -8,6 +8,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - Validation: `python scripts/validate-skills.py` passes and checks each skill package includes `SKILL.md` plus `README.md`
 - CI: GitHub Actions runs the same validation on push and pull request, surfaced by a README badge
 - Latest maintainer readiness report: [`maintainer-readiness-2026-07-04.md`](maintainer-readiness-2026-07-04.md)
+- Latest post-tag audit: [`post-v0.1.0-audit-2026-07-13.md`](post-v0.1.0-audit-2026-07-13.md)
 - Release checklist: [`release-checklist.md`](release-checklist.md)
 - Maintainer workflow coverage:
   - repository onboarding
@@ -29,7 +30,11 @@ This document tracks what is needed before tagging `v0.1.0`.
 - [x] Add README badge after the first workflow run is visible.
 - [x] Confirm installation instructions on Windows.
 - [x] Add a first-release checklist.
-- [ ] Tag `v0.1.0`.
+- [x] Publish `v0.1.0`.
+
+## Post-v0.1.0 status
+
+The public `v0.1.0` tag exists but points to an older application-materials baseline. Do not rewrite that tag. Current `main` includes later validation, CI, security, installation, and README hardening that should be released as a follow-up patch tag after one final check.
 
 ## Release criteria
 
