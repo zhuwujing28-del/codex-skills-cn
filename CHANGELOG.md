@@ -1,15 +1,26 @@
 # Changelog
 
-## Unreleased
+## v0.1.1 - Unreleased
 
 ### Added
 
 - Added a `v0.1.1` patch-release checklist for packaging post-`v0.1.0` hardening without moving the published tag.
 - Added a post-`v0.1.0` audit documenting the published tag target and follow-up patch-release path.
+- Added `context-budget-cn` for Codex context and token budget management.
+- Added `SECURITY.md` with reporting scope and maintainer response guidance.
+- Added a dated maintainer readiness report for `v0.1.0` preparation.
+- Added README validation badge for visible CI status.
+- Added a `v0.1.0` release checklist for tag readiness review.
+
+### Improved
+
+- Extended validation to catch broken local Markdown links.
+- Extended validation to require a `README.md` beside every skill `SKILL.md`.
+- Completed Windows Codex skill installation instructions.
 
 ## v0.1.0 - 2026-07-08
 
-The first tagged release includes a stable early collection of Chinese Codex skills for open-source maintainer workflows.
+The first public tag captured the early application-materials baseline. Later validation, CI, security, installation, and README hardening remains on `main` until the `v0.1.1` patch tag.
 
 ### Added
 
@@ -30,16 +41,9 @@ The first tagged release includes a stable early collection of Chinese Codex ski
 - Added `scripts/validate-skills.py` for skill structure validation.
 - Added issue templates for skill requests and bug reports.
 - Added Codex for Open Source application notes.
-- Added `SECURITY.md` with reporting scope and maintainer response guidance.
-- Added a dated maintainer readiness report for `v0.1.0` preparation.
-- Added README validation badge for visible CI status.
-- Added a `v0.1.0` release checklist for tag readiness review.
 
 ### Improved
 
-- Extended validation to catch broken local Markdown links.
-- Extended validation to require a `README.md` beside every skill `SKILL.md`.
-- Completed Windows Codex skill installation instructions.
 - Expanded README with maintainer workflow positioning and recommended usage path.
 - Expanded contribution guide with quality standards.
 - Updated roadmap toward OSS maintainer workflows and real usage examples.
