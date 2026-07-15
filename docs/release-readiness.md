@@ -11,6 +11,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - Latest post-tag audit: [`post-v0.1.0-audit-2026-07-13.md`](post-v0.1.0-audit-2026-07-13.md)
 - Release checklist: [`release-checklist.md`](release-checklist.md)
 - Patch release checklist: [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md)
+- Extension boundary guide: [`codex-extension-boundaries.md`](codex-extension-boundaries.md)
 - Latest patch tag: `v0.1.1`
 - Maintainer workflow coverage:
   - repository onboarding
