@@ -11,6 +11,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - Latest post-tag audit: [`post-v0.1.0-audit-2026-07-13.md`](post-v0.1.0-audit-2026-07-13.md)
 - Release checklist: [`release-checklist.md`](release-checklist.md)
 - Patch release checklist: [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md)
+- Latest patch tag: `v0.1.1`
 - Maintainer workflow coverage:
   - repository onboarding
   - issue triage
@@ -35,9 +36,9 @@ This document tracks what is needed before tagging `v0.1.0`.
 
 ## Post-v0.1.0 status
 
-The public `v0.1.0` tag exists but points to an older application-materials baseline. Do not rewrite that tag. Current `main` includes later validation, CI, security, installation, and README hardening that should be released as a follow-up patch tag after one final check.
+The public `v0.1.0` tag exists but points to an older application-materials baseline. Do not rewrite that tag. Later validation, CI, security, installation, and README hardening were packaged in the follow-up `v0.1.1` patch tag.
 
-Use [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md) for that follow-up patch tag so the release stays limited to already-landed hardening work.
+Use [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md) as the audit trail for that follow-up patch tag.
 
 ## Release criteria
 
