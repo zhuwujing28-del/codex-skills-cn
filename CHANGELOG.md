@@ -21,7 +21,7 @@
 
 ## v0.1.0 - 2026-07-08
 
-The first public tag captured the early application-materials baseline. Later validation, CI, security, installation, and README hardening remains on `main` until the `v0.1.1` patch tag.
+The first public tag captured the early application-materials baseline. Later validation, CI, security, installation, and README hardening was packaged in the `v0.1.1` patch tag.
 
 ### Added
 
