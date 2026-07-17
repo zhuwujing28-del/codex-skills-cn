@@ -13,6 +13,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - Patch release checklist: [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md)
 - Extension boundary guide: [`codex-extension-boundaries.md`](codex-extension-boundaries.md)
 - Latest patch tag: `v0.1.1`
+- Current `main` includes post-`v0.1.1` documentation updates recorded under `Unreleased` in the changelog.
 - Maintainer workflow coverage:
   - repository onboarding
   - issue triage

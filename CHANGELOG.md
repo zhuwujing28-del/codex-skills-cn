@@ -1,10 +1,19 @@
 # Changelog
 
-## v0.1.1 - 2026-07-15
+## Unreleased
 
 ### Added
 
 - Added a Codex extension boundary guide explaining when to use skills, MCP, plugins, or personal settings.
+
+### Changed
+
+- Corrected the `v0.1.0` release note to point at the published `v0.1.1` hardening tag.
+
+## v0.1.1 - 2026-07-15
+
+### Added
+
 - Added a `v0.1.1` patch-release checklist for packaging post-`v0.1.0` hardening without moving the published tag.
 - Added a post-`v0.1.0` audit documenting the published tag target and follow-up patch-release path.
 - Added `context-budget-cn` for Codex context and token budget management.
