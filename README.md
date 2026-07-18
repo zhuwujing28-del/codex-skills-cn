@@ -62,6 +62,7 @@ codex-skills-cn/
       issue-triage-sample.md
       ci-failure-output.md
       security-advisory-output.md
+      maintainer-workflow-session.md
     skill-template.md
     codex-skill-installation.md
     release-readiness.md

@@ -12,6 +12,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - Release checklist: [`release-checklist.md`](release-checklist.md)
 - Patch release checklist: [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md)
 - Extension boundary guide: [`codex-extension-boundaries.md`](codex-extension-boundaries.md)
+- Latest maintainer workflow example: [`maintainer-workflow-session.md`](examples/maintainer-workflow-session.md)
 - Latest patch tag: `v0.1.1`
 - Current `main` includes post-`v0.1.1` documentation updates recorded under `Unreleased` in the changelog.
 - Maintainer workflow coverage:
@@ -49,5 +50,5 @@ Do not tag `v0.1.0` just because the repository exists. Tag only when:
 - all skills pass validation,
 - each skill package includes a maintainer-facing `README.md`,
 - the README explains who the project serves,
-- examples show realistic maintainer workflows,
+- examples show realistic single-skill and multi-skill maintainer workflows,
 - and the changelog clearly describes what is included.
