@@ -15,16 +15,9 @@
 ## 当前成果
 
 - 已建立 MIT 开源仓库。
-- 已提供 7 个初版 skills：
-  - `karpathy-style-coding`
-  - `repo-onboarding-cn`
-  - `issue-triage-cn`
-  - `pr-review-cn`
-  - `release-notes-cn`
-  - `openai-docs-cn`
-  - `scrapling-web-extraction`
-- 已提供贡献指南、路线图、安装文档和 skill 模板。
-- 已提供 `scripts/validate-skills.py`，用于检查 skill 元数据和基础结构。
+- 已提供 11 个初版 skills，覆盖 repo onboarding、issue triage、PR review、CI 排查、依赖升级、安全公告、context 管理、release notes、OpenAI docs 查询、网页提取和小步编码原则。
+- 已提供贡献指南、路线图、安装文档、skill 模板和维护者工作流示例。
+- 已提供 `scripts/validate-skills.py` 和 GitHub Actions validation，用于检查 skill 元数据、基础结构、README 和本地 Markdown 链接。
 
 ## 对开源社区的价值
 
@@ -36,7 +29,7 @@
 ## 未来 3 个月计划
 
 1. 增加 10-15 个中文 Codex skills，覆盖 GitHub 维护、测试、调试、前端验证、后端排错、文档生成和 API 接入。
-2. 为每个 skill 补充真实使用示例。
+2. 为每个 skill 补充真实或可复用的维护者使用示例。
 3. 收集中文开发者反馈，建立 skill 质量评分标准。
 4. 增加 CI 检查，确保 PR 中新增 skill 结构完整。
 5. 整理一篇中文 Codex 开源维护工作流指南。

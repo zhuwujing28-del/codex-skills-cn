@@ -73,6 +73,13 @@ codex-skills-cn/
   LICENSE
 ```
 
+## 维护者工作流示例
+
+- [`issue-triage-cn` sample output](docs/examples/issue-triage-sample.md)
+- [`github-actions-ci-cn` sample output](docs/examples/ci-failure-output.md)
+- [`security-advisory-triage-cn` sample output](docs/examples/security-advisory-output.md)
+- [`maintainer workflow session`](docs/examples/maintainer-workflow-session.md)
+
 ## 使用方式
 
 复制某个 `skills/<name>/SKILL.md` 到你的 Codex skills 目录，或将其中的规则整理进 Codex 个性化设置。
