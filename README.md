@@ -125,7 +125,7 @@ python .\scripts\validate-skills.py
 - 提供面向开源维护者的工作流样例。
 - 收集真实项目使用反馈，并据此改进 skill。
 
-如果你也是中文开源维护者，欢迎提交 issue，描述你最希望 Codex 帮你处理的维护场景。
+如果你也是中文开源维护者，欢迎提交 issue，描述你最希望 Codex 帮你处理的维护场景。已经在真实项目中试用过 skill 的维护者，也欢迎通过 [Maintainer workflow report](.github/ISSUE_TEMPLATE/maintainer_workflow_report.md) 反馈可复现的使用证据和改进点。
 
 申请材料草稿见 [`docs/codex-for-oss-application-notes.md`](docs/codex-for-oss-application-notes.md)。更完整的申请说明见 [`APPLICATION.md`](APPLICATION.md)。
 

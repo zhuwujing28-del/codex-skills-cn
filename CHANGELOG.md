@@ -4,6 +4,7 @@
 
 ### Added
 
+- Added a maintainer workflow usage-report issue template for collecting real OSS feedback.
 - Added a multi-skill maintainer workflow session example for v0.2 application evidence.
 - Added a Codex extension boundary guide explaining when to use skills, MCP, plugins, or personal settings.
 
