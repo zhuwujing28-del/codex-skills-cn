@@ -4,6 +4,7 @@
 
 ### Added
 
+- Added a `release-notes-cn` sample output showing Chinese release communication grounded in shipped maintainer-facing changes.
 - Added a `dependency-upgrade-cn` sample output showing evidence-based merge/hold decisions for routine Dependabot PRs.
 - Added a public issue triage note mapping open setup, boundary, workflow-example, and maintainer-feedback issues to shipped docs and next actions.
 - Added a maintainer workflow usage-report issue template for collecting real OSS feedback.
