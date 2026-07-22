@@ -77,6 +77,7 @@ codex-skills-cn/
 
 - [`issue-triage-cn` sample output](docs/examples/issue-triage-sample.md)
 - [`github-actions-ci-cn` sample output](docs/examples/ci-failure-output.md)
+- [`dependency-upgrade-cn` sample output](docs/examples/dependency-upgrade-review.md)
 - [`security-advisory-triage-cn` sample output](docs/examples/security-advisory-output.md)
 - [`maintainer workflow session`](docs/examples/maintainer-workflow-session.md)
 
