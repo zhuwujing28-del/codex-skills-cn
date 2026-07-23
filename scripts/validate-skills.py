@@ -7,6 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS_DIR = ROOT / "skills"
+EXAMPLES_DIR = ROOT / "docs" / "examples"
+EXAMPLE_INDEX = ROOT / "docs" / "example-index.md"
 MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 
 REQUIRED_SECTIONS = [
@@ -100,6 +102,27 @@ def validate_markdown_links() -> list[str]:
     return errors
 
 
+def validate_example_index() -> list[str]:
+    errors: list[str] = []
+    if not EXAMPLES_DIR.exists():
+        return errors
+
+    example_files = sorted(EXAMPLES_DIR.glob("*.md"))
+    if not example_files:
+        return errors
+
+    if not EXAMPLE_INDEX.exists():
+        return ["docs/example-index.md: missing example index"]
+
+    index_text = EXAMPLE_INDEX.read_text(encoding="utf-8")
+    for example_path in example_files:
+        rel = example_path.relative_to(ROOT).as_posix()
+        if rel not in index_text:
+            errors.append(f"docs/example-index.md: missing {rel}")
+
+    return errors
+
+
 def main() -> int:
     if not SKILLS_DIR.exists():
         print("skills directory not found", file=sys.stderr)
@@ -110,6 +133,7 @@ def main() -> int:
     for path in skill_dirs:
         all_errors.extend(validate_skill(path))
     all_errors.extend(validate_markdown_links())
+    all_errors.extend(validate_example_index())
 
     if all_errors:
         print("Skill validation failed:")

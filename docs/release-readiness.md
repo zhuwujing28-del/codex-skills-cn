@@ -17,6 +17,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - Latest public issue triage: [`public-issue-triage-2026-07-19.md`](public-issue-triage-2026-07-19.md)
 - Maintainer feedback intake: [`.github/ISSUE_TEMPLATE/maintainer_feedback_request.md`](../.github/ISSUE_TEMPLATE/maintainer_feedback_request.md)
 - Maintainer feedback follow-up loop: [`maintainer-feedback-loop.md`](maintainer-feedback-loop.md)
+- Maintainer example index: [`example-index.md`](example-index.md)
 - Latest patch tag: `v0.1.1`
 - Current `main` includes post-`v0.1.1` documentation updates recorded under `Unreleased` in the changelog.
 - Maintainer workflow coverage:
