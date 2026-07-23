@@ -15,6 +15,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - Latest maintainer workflow example: [`maintainer-workflow-session.md`](examples/maintainer-workflow-session.md)
 - Latest release-notes example: [`release-notes-output.md`](examples/release-notes-output.md)
 - Latest public issue triage: [`public-issue-triage-2026-07-19.md`](public-issue-triage-2026-07-19.md)
+- Maintainer feedback intake: [`.github/ISSUE_TEMPLATE/maintainer_feedback_request.md`](../.github/ISSUE_TEMPLATE/maintainer_feedback_request.md)
 - Latest patch tag: `v0.1.1`
 - Current `main` includes post-`v0.1.1` documentation updates recorded under `Unreleased` in the changelog.
 - Maintainer workflow coverage:
@@ -26,6 +27,7 @@ This document tracks what is needed before tagging `v0.1.0`.
   - security advisory triage
   - context and token budget management
   - release notes
+  - maintainer feedback intake
   - OpenAI docs assistance
   - web extraction
   - small verified coding changes

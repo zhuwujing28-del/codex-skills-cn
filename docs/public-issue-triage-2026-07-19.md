@@ -26,7 +26,7 @@ asking for real usage reports instead of adding placeholder content.
 | #4 | MCP vs skill distinction | [`codex-extension-boundaries.md`](codex-extension-boundaries.md) directly answers the boundary question. | Close as completed after posting the doc link. |
 | #5 | More Chinese Codex workflow examples | Same scope as #2, with newer examples now available. | Keep open only if it tracks additional examples; otherwise deduplicate into #2. |
 | #6 | v0.2 maintainer workflow examples | [`maintainer-workflow-session.md`](examples/maintainer-workflow-session.md) covers a multi-skill maintainer session. | Keep open for more real project sessions; add current example as first evidence. |
-| #7 | Feedback from Chinese-speaking OSS maintainers | `.github/ISSUE_TEMPLATE/maintainer_workflow_report.md` now gives a structured intake path. | Keep open and ask maintainers to file reports with sanitized evidence. |
+| #7 | Feedback from Chinese-speaking OSS maintainers | `.github/ISSUE_TEMPLATE/maintainer_feedback_request.md` now gives a structured intake path. | Keep open and ask maintainers to file feedback requests with sanitized evidence. |
 
 ## Suggested maintainer replies
 
