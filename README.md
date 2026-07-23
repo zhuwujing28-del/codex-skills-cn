@@ -46,6 +46,7 @@
 7. `context-budget-cn`：压缩长上下文，控制 token 和 skill 膨胀。
 8. `release-notes-cn`：发版时把技术变更整理成用户能读懂的说明。
 9. `karpathy-style-coding`：日常修 bug 和小功能时约束 Codex 小步、直接、可验证。
+10. `docs/codex-extension-boundaries.md`：先判断该写 skill、接 MCP 还是做 plugin。
 
 ## 目录结构
 
@@ -81,6 +82,7 @@ codex-skills-cn/
 - [`release-notes-cn` sample output](docs/examples/release-notes-output.md)
 - [`security-advisory-triage-cn` sample output](docs/examples/security-advisory-output.md)
 - [`maintainer workflow session`](docs/examples/maintainer-workflow-session.md)
+- [`skill / MCP / plugin boundary guide`](docs/codex-extension-boundaries.md)
 
 ## 使用方式
 

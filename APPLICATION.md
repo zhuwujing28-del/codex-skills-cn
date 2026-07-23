@@ -48,6 +48,7 @@ Codex is used to:
 - Validation script and GitHub Actions workflow.
 - Changelog and release readiness notes.
 - Sample maintainer workflow outputs.
+- Skill / MCP / plugin boundary guide.
 - Companion eval repository: `agent-evals-cn`.
 
 ## Why support would help
