@@ -82,6 +82,7 @@ codex-skills-cn/
 - [`release-notes-cn` sample output](docs/examples/release-notes-output.md)
 - [`security-advisory-triage-cn` sample output](docs/examples/security-advisory-output.md)
 - [`maintainer workflow session`](docs/examples/maintainer-workflow-session.md)
+- [`maintainer feedback loop`](docs/maintainer-feedback-loop.md)
 - [`skill / MCP / plugin boundary guide`](docs/codex-extension-boundaries.md)
 
 ## 使用方式

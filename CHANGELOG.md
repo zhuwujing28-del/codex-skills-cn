@@ -4,6 +4,7 @@
 
 ### Added
 
+- Added a maintainer feedback loop note explaining how to turn real OSS usage reports into scoped skill, docs, or eval follow-ups.
 - Added a dedicated maintainer feedback request template for collecting structured Chinese OSS maintainer feedback.
 - Added a `release-notes-cn` sample output showing Chinese release communication grounded in shipped maintainer-facing changes.
 - Added a `dependency-upgrade-cn` sample output showing evidence-based merge/hold decisions for routine Dependabot PRs.
