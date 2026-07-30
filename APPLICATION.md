@@ -51,6 +51,21 @@ Codex is used to:
 - Skill / MCP / plugin boundary guide.
 - Companion eval repository: `agent-evals-cn`.
 
+## Application packet checklist
+
+Before submitting the OSS application, keep the packet small and explicit:
+
+- one-sentence project summary and maintainer audience,
+- current skill list and the maintainer workflows covered,
+- validation evidence (`python scripts/validate-skills.py` plus the CI badge),
+- release or readiness notes and any post-release audit links,
+- one or two representative examples or workflow reports,
+- a short note on current scope limits.
+
+If reviewers ask for the project's main differentiator, point to the fact that
+this repo turns recurring maintainer work into Chinese, reusable, validated
+skills with a companion eval loop in `agent-evals-cn`.
+
 ## Why support would help
 
 The maintainer relies on Codex-assisted workflows to keep the project moving. ChatGPT Pro access would make it easier to continue:
