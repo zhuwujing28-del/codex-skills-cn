@@ -77,6 +77,7 @@ codex-skills-cn/
 ## 维护者工作流示例
 
 - [`issue-triage-cn` sample output](docs/examples/issue-triage-sample.md)
+- [`pr-review-cn` sample output](docs/examples/pr-review-stale-state.md)
 - [`github-actions-ci-cn` sample output](docs/examples/ci-failure-output.md)
 - [`dependency-upgrade-cn` sample output](docs/examples/dependency-upgrade-review.md)
 - [`release-notes-cn` sample output](docs/examples/release-notes-output.md)

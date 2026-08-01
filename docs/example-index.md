@@ -10,6 +10,7 @@ listed here.
 | Example | Primary skill / workflow | Readiness evidence |
 | --- | --- | --- |
 | [`docs/examples/issue-triage-sample.md`](examples/issue-triage-sample.md) | `issue-triage-cn` | Shows issue classification, priority, labels, and maintainer reply drafting. |
+| [`docs/examples/pr-review-stale-state.md`](examples/pr-review-stale-state.md) | `pr-review-cn` | Shows a state-transition regression finding, targeted test gap, and maintainer-ready review reply. |
 | [`docs/examples/ci-failure-output.md`](examples/ci-failure-output.md) | `github-actions-ci-cn` | Shows grounded CI failure diagnosis and contributor follow-up. |
 | [`docs/examples/dependency-upgrade-review.md`](examples/dependency-upgrade-review.md) | `dependency-upgrade-cn` | Shows evidence-based merge / hold decisions for dependency PRs. |
 | [`docs/examples/release-notes-output.md`](examples/release-notes-output.md) | `release-notes-cn` | Shows user-facing Chinese release notes from shipped changes. |

@@ -4,6 +4,7 @@
 
 ### Added
 
+- Added a `pr-review-cn` sample output that demonstrates finding a stale state transition, requesting a focused regression test, and drafting a maintainer reply.
 - Added a maintainer example index and validation check so sample outputs remain discoverable as the repository grows.
 - Added a maintainer feedback loop note explaining how to turn real OSS usage reports into scoped skill, docs, or eval follow-ups.
 - Added a dedicated maintainer feedback request template for collecting structured Chinese OSS maintainer feedback.
