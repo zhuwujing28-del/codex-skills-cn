@@ -8,6 +8,7 @@
 - Added a maintainer example index and validation check so sample outputs remain discoverable as the repository grows.
 - Added a maintainer feedback loop note explaining how to turn real OSS usage reports into scoped skill, docs, or eval follow-ups.
 - Added a dedicated maintainer feedback request template for collecting structured Chinese OSS maintainer feedback.
+- Added `CODEOWNERS` so public contributions route through explicit maintainer review ownership.
 - Added a `release-notes-cn` sample output showing Chinese release communication grounded in shipped maintainer-facing changes.
 - Added a `dependency-upgrade-cn` sample output showing evidence-based merge/hold decisions for routine Dependabot PRs.
 - Added a public issue triage note mapping open setup, boundary, workflow-example, and maintainer-feedback issues to shipped docs and next actions.
