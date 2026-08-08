@@ -18,6 +18,7 @@
 
 ### Changed
 
+- Tightened public issue follow-up reply templates with clearer next steps for completed setup and boundary issues.
 - Corrected the `v0.1.0` release note to point at the published `v0.1.1` hardening tag.
 
 ## v0.1.1 - 2026-07-15

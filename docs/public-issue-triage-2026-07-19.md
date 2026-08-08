@@ -34,7 +34,9 @@ asking for real usage reports instead of adding placeholder content.
 
 ```text
 已补充安装文档：docs/codex-skill-installation.md，并在 README 中保留了安装入口。
-如果还有 Windows/macOS/Linux 上的具体失败命令或截图，欢迎开一个新的 bug report。
+
+如果还有 Windows、macOS 或 Linux 上的具体失败命令、截图或路径问题，欢迎再开一个新的 bug report，附上复现信息。
+
 这个 issue 先按已完成关闭。
 ```
 
@@ -42,7 +44,9 @@ asking for real usage reports instead of adding placeholder content.
 
 ```text
 已补充说明：docs/codex-extension-boundaries.md。
-这份文档区分了 skill、MCP、plugin 和个人设置的适用边界，也给出开源维护场景下的选择建议。
+
+这份文档区分了 skill、MCP、plugin 和个人设置的适用边界，也给出了开源维护场景下的选择建议。
+
 如果你有具体扩展场景，可以继续用 skill_request 模板补一个案例。
 ```
 
@@ -50,6 +54,7 @@ asking for real usage reports instead of adding placeholder content.
 
 ```text
 已新增 Maintainer workflow report 模板，用来收集真实 OSS 维护场景中的使用反馈。
+
 欢迎用该模板提交：使用的 skill、任务类型、脱敏输入材料、Codex 输出、哪些地方有帮助、哪些地方需要改进。
 ```
 
