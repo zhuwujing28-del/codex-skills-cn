@@ -25,6 +25,7 @@
 | `repo-onboarding-cn` | 陌生仓库入门、架构地图、运行和验证方式整理 | 初版 |
 | `pr-review-cn` | 中文 PR/code review，聚焦 bug、回归、测试缺口 | 初版 |
 | `issue-triage-cn` | 中文 issue 分类、优先级、标签和维护者回复 | 初版 |
+| `bug-reproduction-cn` | 中文 bug report 最小复现、环境核对、回归范围和维护者验证记录 | 初版 |
 | `github-actions-ci-cn` | 中文 GitHub Actions CI 失败排查和维护者回复 | 初版 |
 | `dependency-upgrade-cn` | 中文依赖升级、Dependabot/Renovate PR 风险评估和验证计划 | 初版 |
 | `security-advisory-triage-cn` | 中文安全公告、漏洞影响评估和负责任披露 triage | 初版 |
@@ -39,14 +40,15 @@
 
 1. `repo-onboarding-cn`：先让 Codex 读项目，输出项目地图和风险区域。
 2. `issue-triage-cn`：把模糊 issue 转成可执行维护动作。
-3. `pr-review-cn`：合并前做一次中文 review。
-4. `github-actions-ci-cn`：CI 挂掉时定位失败 job、原因和修复动作。
-5. `dependency-upgrade-cn`：审查依赖升级和安全升级 PR。
-6. `security-advisory-triage-cn`：处理漏洞报告和安全公告。
-7. `context-budget-cn`：压缩长上下文，控制 token 和 skill 膨胀。
-8. `release-notes-cn`：发版时把技术变更整理成用户能读懂的说明。
-9. `karpathy-style-coding`：日常修 bug 和小功能时约束 Codex 小步、直接、可验证。
-10. `docs/codex-extension-boundaries.md`：先判断该写 skill、接 MCP 还是做 plugin。
+3. `bug-reproduction-cn`：对疑似 bug 先做最小复现和验证记录。
+4. `pr-review-cn`：合并前做一次中文 review。
+5. `github-actions-ci-cn`：CI 挂掉时定位失败 job、原因和修复动作。
+6. `dependency-upgrade-cn`：审查依赖升级和安全升级 PR。
+7. `security-advisory-triage-cn`：处理漏洞报告和安全公告。
+8. `context-budget-cn`：压缩长上下文，控制 token 和 skill 膨胀。
+9. `release-notes-cn`：发版时把技术变更整理成用户能读懂的说明。
+10. `karpathy-style-coding`：日常修 bug 和小功能时约束 Codex 小步、直接、可验证。
+11. `docs/codex-extension-boundaries.md`：先判断该写 skill、接 MCP 还是做 plugin。
 
 ## 目录结构
 
