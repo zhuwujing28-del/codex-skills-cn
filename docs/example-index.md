@@ -14,6 +14,7 @@ listed here.
 | [`docs/examples/ci-failure-output.md`](examples/ci-failure-output.md) | `github-actions-ci-cn` | Shows grounded CI failure diagnosis and contributor follow-up. |
 | [`docs/examples/dependency-upgrade-review.md`](examples/dependency-upgrade-review.md) | `dependency-upgrade-cn` | Shows evidence-based merge / hold decisions for dependency PRs. |
 | [`docs/examples/release-notes-output.md`](examples/release-notes-output.md) | `release-notes-cn` | Shows user-facing Chinese release notes from shipped changes. |
+| [`docs/examples/repo-onboarding-summary.md`](examples/repo-onboarding-summary.md) | `repo-onboarding-cn` | Shows a concise first-pass repo map, key files, risks, and next steps. |
 | [`docs/examples/security-advisory-output.md`](examples/security-advisory-output.md) | `security-advisory-triage-cn` | Shows private-channel escalation and bounded public communication. |
 | [`docs/examples/maintainer-workflow-session.md`](examples/maintainer-workflow-session.md) | Multi-skill maintainer workflow | Shows how multiple skills combine during a realistic 45-minute maintenance session. |
 

@@ -83,6 +83,7 @@ codex-skills-cn/
 - [`github-actions-ci-cn` sample output](docs/examples/ci-failure-output.md)
 - [`dependency-upgrade-cn` sample output](docs/examples/dependency-upgrade-review.md)
 - [`release-notes-cn` sample output](docs/examples/release-notes-output.md)
+- [`repo-onboarding-cn` sample output](docs/examples/repo-onboarding-summary.md)
 - [`security-advisory-triage-cn` sample output](docs/examples/security-advisory-output.md)
 - [`maintainer workflow session`](docs/examples/maintainer-workflow-session.md)
 - [`maintainer feedback loop`](docs/maintainer-feedback-loop.md)

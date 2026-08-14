@@ -5,13 +5,13 @@ description: Use when first entering an unfamiliar repository and the user wants
 
 # Repo Onboarding CN
 
-用在第一次接手陌生仓库、准备修 bug、做功能或评估项目质量之前。目标是快速建立可执行的项目地图，而不是写一篇泛泛的代码导览。
+用于第一次接手陌生仓库、准备修 bug、做功能或评估项目质量之前。目标是快速建立可执行的项目地图，而不是写一篇泛泛的代码导览。
 
 ## 适用场景
 
 - 用户说“看一下这个项目”“这个仓库怎么跑”“先熟悉一下代码”。
 - 需要在动手前确认技术栈、入口、测试方式和风险区域。
-- 开源维护者需要把 issue 分配给新贡献者。
+- 开源维护者需要把 issue 或改动分配给新贡献者。
 
 ## 不适用场景
 
@@ -24,15 +24,12 @@ description: Use when first entering an unfamiliar repository and the user wants
 1. 扫描根目录。
    - 优先读取 `README*`、`AGENTS.md`、`CLAUDE.md`、`package.json`、`pyproject.toml`、`Cargo.toml`、`go.mod`、`docker-compose*`、CI 配置。
    - 用 `rg --files` 查找主要入口、测试目录和配置文件。
-
 2. 建立项目地图。
    - 说明技术栈、主要模块、启动方式、测试方式、构建/部署线索。
    - 区分“确定事实”和“根据文件结构推断”。
-
 3. 找出协作入口。
    - 标出适合新贡献者阅读的文件。
    - 标出高风险区域：认证、支付、数据库迁移、任务队列、生产配置、安全边界。
-
 4. 给出下一步建议。
    - 如果用户要修 issue，建议先读哪些文件、跑哪些验证。
    - 如果仓库缺少文档，列出最小补文档清单。
