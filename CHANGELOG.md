@@ -20,6 +20,7 @@
 
 ### Changed
 
+- Refreshed the Codex for Open Source application notes so the current 12-skill maintainer workflow coverage includes bug reproduction evidence.
 - Repaired mojibake in the maintainer feedback request issue template so public OSS feedback can be submitted in readable Chinese.
 - Tightened public issue follow-up reply templates with clearer next steps for completed setup and boundary issues.
 - Corrected the `v0.1.0` release note to point at the published `v0.1.1` hardening tag.

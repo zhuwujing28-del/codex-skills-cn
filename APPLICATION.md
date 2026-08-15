@@ -4,7 +4,7 @@ This repository is an early-stage but actively maintained Chinese Codex skills c
 
 ## One-line summary
 
-`codex-skills-cn` helps Chinese-speaking open-source maintainers use Codex for real maintainer workflows: repository onboarding, issue triage, PR review, CI failure diagnosis, dependency upgrades, security advisory triage, release notes, OpenAI docs assistance, and safe web extraction.
+`codex-skills-cn` helps Chinese-speaking open-source maintainers use Codex for real maintainer workflows: repository onboarding, issue triage, bug reproduction, PR review, CI failure diagnosis, dependency upgrades, security advisory triage, release notes, OpenAI docs assistance, and safe web extraction.
 
 ## Why this project matters
 
@@ -22,6 +22,7 @@ This project turns recurring OSS maintainer work into reviewed, reusable Codex s
 
 - Repository onboarding for new contributors.
 - Issue triage and maintainer replies.
+- Bug report minimization and reproduction evidence.
 - Pull request review focused on bugs, regressions, and tests.
 - GitHub Actions CI failure diagnosis.
 - Dependency upgrade and Dependabot/Renovate PR review.
@@ -44,7 +45,7 @@ Codex is used to:
 
 ## Current status
 
-- 11 maintainer-oriented skills.
+- 12 maintainer-oriented skills.
 - Validation script and GitHub Actions workflow.
 - Changelog and release readiness notes.
 - Sample maintainer workflow outputs.

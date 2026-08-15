@@ -15,7 +15,7 @@
 ## 当前成果
 
 - 已建立 MIT 开源仓库。
-- 已提供 11 个初版 skills，覆盖 repo onboarding、issue triage、PR review、CI 排查、依赖升级、安全公告、context 管理、release notes、OpenAI docs 查询、网页提取和小步编码原则。
+- 已提供 12 个初版 skills，覆盖 repo onboarding、issue triage、bug reproduction、PR review、CI 排查、依赖升级、安全公告、context 管理、release notes、OpenAI docs 查询、网页提取和小步编码原则。
 - 已提供贡献指南、路线图、安装文档、skill 模板和维护者工作流示例。
 - 已提供 `scripts/validate-skills.py` 和 GitHub Actions validation，用于检查 skill 元数据、基础结构、README 和本地 Markdown 链接。
 
