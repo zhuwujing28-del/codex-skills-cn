@@ -4,6 +4,7 @@
 
 ### Added
 
+- Added a worked maintainer feedback loop example so real OSS complaints can be turned into a small, evidence-based follow-up.
 - Added a repository onboarding sample output that shows the first-pass map, key files, risks, and next steps a maintainer should capture.
 - Added `bug-reproduction-cn` for Chinese bug report minimization, reproduction evidence, and maintainer-ready verification notes.
 - Added a `pr-review-cn` sample output that demonstrates finding a stale state transition, requesting a focused regression test, and drafting a maintainer reply.

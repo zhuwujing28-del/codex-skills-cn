@@ -89,3 +89,9 @@ When writing follow-up notes, tag the source of the conclusion:
 - It shows that feedback collection is connected to maintenance, not just intake.
 - It makes future application evidence easier to inspect.
 - It gives `agent-evals-cn` a clear source for realistic new eval cases.
+
+## Worked example
+
+See [`docs/examples/maintainer-feedback-loop-example.md`](examples/maintainer-feedback-loop-example.md)
+for a filled maintainer-feedback follow-up that stays small, evidence-based, and
+ready to turn into a doc patch.
