@@ -17,6 +17,7 @@
 - Added a public issue triage note mapping open setup, boundary, workflow-example, and maintainer-feedback issues to shipped docs and next actions.
 - Added a maintainer workflow usage-report issue template for collecting real OSS feedback.
 - Added a GitHub issue template config that disables blank issues and points maintainers to the skill docs path.
+- Redirected the issue template config link to the maintainer boundary guide instead of the repo root.
 - Added a multi-skill maintainer workflow session example for v0.2 application evidence.
 - Added a Codex extension boundary guide explaining when to use skills, MCP, plugins, or personal settings.
 
