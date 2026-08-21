@@ -4,7 +4,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 
 ## Current status
 
-- Skills: 11
+- Skills: 12
 - Validation: `python scripts/validate-skills.py` passes and checks each skill package includes `SKILL.md` plus `README.md`
 - CI: GitHub Actions runs the same validation on push and pull request, surfaced by a README badge
 - Latest maintainer readiness report: [`maintainer-readiness-2026-07-04.md`](maintainer-readiness-2026-07-04.md)
