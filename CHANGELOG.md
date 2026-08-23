@@ -4,6 +4,7 @@
 
 ### Added
 
+- Extended skill validation to catch stale maintainer example-index links.
 - Extended skill validation to require core OSS governance files before release.
 - Added least-privilege read-only permissions to the GitHub Actions validation workflow.
 - Added a worked maintainer feedback loop example so real OSS complaints can be turned into a small, evidence-based follow-up.

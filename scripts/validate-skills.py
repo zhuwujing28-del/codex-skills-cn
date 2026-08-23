@@ -127,6 +127,13 @@ def validate_example_index() -> list[str]:
         if rel not in index_text:
             errors.append(f"docs/example-index.md: missing {rel}")
 
+    indexed_paths = set(
+        re.findall(r"\]\((examples/[^)#]+\.md)(?:#[^)]*)?\)", index_text)
+    )
+    known_paths = {path.relative_to(EXAMPLE_INDEX.parent).as_posix() for path in example_files}
+    for rel in sorted(indexed_paths - known_paths):
+        errors.append(f"docs/example-index.md: stale example link {rel}")
+
     return errors
 
 

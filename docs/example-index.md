@@ -3,7 +3,7 @@
 This index maps each published maintainer-facing example to the skill or workflow
 it demonstrates. Keep it updated whenever a new file is added under
 `docs/examples/`; `python scripts/validate-skills.py` checks that every example is
-listed here.
+listed here and that indexed example links do not point at removed files.
 
 ## Published examples
 

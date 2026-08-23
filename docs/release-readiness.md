@@ -5,7 +5,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 ## Current status
 
 - Skills: 12
-- Validation: `python scripts/validate-skills.py` passes and checks skill packages, local docs links, example index coverage, and required OSS governance files
+- Validation: `python scripts/validate-skills.py` passes and checks skill packages, local docs links, complete/stale example index coverage, and required OSS governance files
 - CI: GitHub Actions runs the same validation on push and pull request, surfaced by a README badge
 - Latest maintainer readiness report: [`maintainer-readiness-2026-07-04.md`](maintainer-readiness-2026-07-04.md)
 - Latest post-tag audit: [`post-v0.1.0-audit-2026-07-13.md`](post-v0.1.0-audit-2026-07-13.md)
