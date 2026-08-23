@@ -9,6 +9,13 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS_DIR = ROOT / "skills"
 EXAMPLES_DIR = ROOT / "docs" / "examples"
 EXAMPLE_INDEX = ROOT / "docs" / "example-index.md"
+GOVERNANCE_FILES = [
+    ROOT / "CONTRIBUTING.md",
+    ROOT / "SECURITY.md",
+    ROOT / ".github" / "CODEOWNERS",
+    ROOT / ".github" / "workflows" / "validate.yml",
+    ROOT / ".github" / "ISSUE_TEMPLATE" / "config.yml",
+]
 MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 
 REQUIRED_SECTIONS = [
@@ -123,6 +130,17 @@ def validate_example_index() -> list[str]:
     return errors
 
 
+def validate_governance_files() -> list[str]:
+    errors: list[str] = []
+    for path in GOVERNANCE_FILES:
+        if not path.exists():
+            errors.append(f"missing OSS governance file: {path.relative_to(ROOT)}")
+            continue
+        if not path.read_text(encoding="utf-8").strip():
+            errors.append(f"empty OSS governance file: {path.relative_to(ROOT)}")
+    return errors
+
+
 def main() -> int:
     if not SKILLS_DIR.exists():
         print("skills directory not found", file=sys.stderr)
@@ -134,6 +152,7 @@ def main() -> int:
         all_errors.extend(validate_skill(path))
     all_errors.extend(validate_markdown_links())
     all_errors.extend(validate_example_index())
+    all_errors.extend(validate_governance_files())
 
     if all_errors:
         print("Skill validation failed:")
