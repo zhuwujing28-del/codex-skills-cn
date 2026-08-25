@@ -86,6 +86,7 @@ codex-skills-cn/
 - [`repo-onboarding-cn` sample output](docs/examples/repo-onboarding-summary.md)
 - [`security-advisory-triage-cn` sample output](docs/examples/security-advisory-output.md)
 - [`maintainer workflow session`](docs/examples/maintainer-workflow-session.md)
+- [`maintainer workflow report`](docs/examples/maintainer-workflow-report-example.md)
 - [`maintainer feedback loop`](docs/maintainer-feedback-loop.md)
 - [`skill / MCP / plugin boundary guide`](docs/codex-extension-boundaries.md)
 

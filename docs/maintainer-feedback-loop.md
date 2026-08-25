@@ -95,3 +95,6 @@ When writing follow-up notes, tag the source of the conclusion:
 See [`docs/examples/maintainer-feedback-loop-example.md`](examples/maintainer-feedback-loop-example.md)
 for a filled maintainer-feedback follow-up that stays small, evidence-based, and
 ready to turn into a doc patch.
+
+For a filled maintainer workflow usage-report template, see
+[`docs/examples/maintainer-workflow-report-example.md`](examples/maintainer-workflow-report-example.md).
