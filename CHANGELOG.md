@@ -4,6 +4,7 @@
 
 ### Added
 
+- Added an OSS application evidence checklist that separates repository proof, CI evidence, usage feedback, and unsupported adoption claims.
 - Extended skill validation to catch stale maintainer example-index links.
 - Extended skill validation to require core OSS governance files before release.
 - Added least-privilege read-only permissions to the GitHub Actions validation workflow.

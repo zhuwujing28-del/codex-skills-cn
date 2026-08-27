@@ -56,6 +56,10 @@ Codex is used to:
 
 Before submitting the OSS application, keep the packet small and explicit:
 
+Use [`docs/application-evidence-checklist.md`](docs/application-evidence-checklist.md)
+to review each claim against repository, CI, and public feedback evidence before
+submitting.
+
 - one-sentence project summary and maintainer audience,
 - current skill list and the maintainer workflows covered,
 - validation evidence (`python scripts/validate-skills.py` plus the CI badge),
