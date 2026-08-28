@@ -4,6 +4,7 @@
 
 ### Added
 
+- Added a dated OSS application evidence snapshot tying public repo state, CI status, and adoption-claim boundaries to reproducible sources.
 - Added an OSS application evidence checklist that separates repository proof, CI evidence, usage feedback, and unsupported adoption claims.
 - Extended skill validation to catch stale maintainer example-index links.
 - Extended skill validation to require core OSS governance files before release.
