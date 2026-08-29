@@ -12,6 +12,14 @@ assignees: ""
 - `issue-triage-cn`
 - `pr-review-cn`
 - `github-actions-ci-cn`
+- `bug-reproduction-cn`
+- `context-budget-cn`
+- `dependency-upgrade-cn`
+- `karpathy-style-coding`
+- `openai-docs-cn`
+- `release-notes-cn`
+- `scrapling-web-extraction`
+- `security-advisory-triage-cn`
 
 ## 维护场景
 

@@ -9,6 +9,10 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS_DIR = ROOT / "skills"
 EXAMPLES_DIR = ROOT / "docs" / "examples"
 EXAMPLE_INDEX = ROOT / "docs" / "example-index.md"
+FEEDBACK_TEMPLATES = [
+    ROOT / ".github" / "ISSUE_TEMPLATE" / "maintainer_feedback_request.md",
+    ROOT / ".github" / "ISSUE_TEMPLATE" / "maintainer_workflow_report.md",
+]
 GOVERNANCE_FILES = [
     ROOT / "CONTRIBUTING.md",
     ROOT / "SECURITY.md",
@@ -137,6 +141,22 @@ def validate_example_index() -> list[str]:
     return errors
 
 
+def validate_feedback_templates(skill_dirs: list[Path]) -> list[str]:
+    errors: list[str] = []
+    skill_names = [path.name for path in skill_dirs]
+
+    for template in FEEDBACK_TEMPLATES:
+        if not template.exists():
+            continue
+        text = template.read_text(encoding="utf-8")
+        for skill_name in skill_names:
+            if f"`{skill_name}`" not in text:
+                rel = template.relative_to(ROOT)
+                errors.append(f"{rel}: missing skill option `{skill_name}`")
+
+    return errors
+
+
 def validate_governance_files() -> list[str]:
     errors: list[str] = []
     for path in GOVERNANCE_FILES:
@@ -159,6 +179,7 @@ def main() -> int:
         all_errors.extend(validate_skill(path))
     all_errors.extend(validate_markdown_links())
     all_errors.extend(validate_example_index())
+    all_errors.extend(validate_feedback_templates(skill_dirs))
     all_errors.extend(validate_governance_files())
 
     if all_errors:
