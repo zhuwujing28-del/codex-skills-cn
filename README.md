@@ -137,7 +137,7 @@ python .\scripts\validate-skills.py
 
 如果你也是中文开源维护者，欢迎提交 issue，描述你最希望 Codex 帮你处理的维护场景。已经在真实项目中试用过 skill 的维护者，也欢迎通过 [Maintainer workflow report](.github/ISSUE_TEMPLATE/maintainer_workflow_report.md) 反馈可复现的使用证据和改进点。
 
-申请材料草稿见 [`docs/codex-for-oss-application-notes.md`](docs/codex-for-oss-application-notes.md)。提交前可用 [`docs/application-evidence-snapshot-2026-08-28.md`](docs/application-evidence-snapshot-2026-08-28.md) 复核公开证据；更完整的申请说明见 [`APPLICATION.md`](APPLICATION.md)。
+申请材料草稿见 [`docs/codex-for-oss-application-notes.md`](docs/codex-for-oss-application-notes.md)。提交前可用最新的 [`docs/application-evidence-snapshot-2026-08-30.md`](docs/application-evidence-snapshot-2026-08-30.md) 复核公开证据；更完整的申请说明见 [`APPLICATION.md`](APPLICATION.md)。
 
 ## 许可证
 

@@ -9,6 +9,7 @@ This document tracks what is needed before tagging `v0.1.0`.
 - CI: GitHub Actions runs the same validation on push and pull request, surfaced by a README badge
 - Latest maintainer readiness report: [`maintainer-readiness-2026-07-04.md`](maintainer-readiness-2026-07-04.md)
 - Latest application evidence snapshot: [`application-evidence-snapshot-2026-08-28.md`](application-evidence-snapshot-2026-08-28.md)
+- Current application evidence snapshot: [`application-evidence-snapshot-2026-08-30.md`](application-evidence-snapshot-2026-08-30.md)
 - Latest post-tag audit: [`post-v0.1.0-audit-2026-07-13.md`](post-v0.1.0-audit-2026-07-13.md)
 - Release checklist: [`release-checklist.md`](release-checklist.md)
 - Patch release checklist: [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md)
