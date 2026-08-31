@@ -1,24 +1,21 @@
 # Roadmap
 
+## 已完成
+
+- 已覆盖 repo onboarding、issue triage、PR review、CI 排查、release notes、
+  依赖升级、安全告警、上下文预算和 bug reproduction 等维护场景。
+- 已为 skill 提供中文使用示例、边界说明、安装指南和维护者工作流样例。
+- 已加入 `scripts/validate-skills.py`、GitHub Actions、治理文件检查和本地文档链接检查。
+- 已提供 skill、plugin、MCP 和个人设置的边界说明，以及发布和申请准备度文档。
+
 ## 近期
 
-- 补充开源维护高频场景 skills：repo onboarding、issue triage、PR review、CI 排查、release notes。
-- 为每个 skill 增加中文使用示例和边界说明。
-- 增加 Windows/macOS/Linux 安装说明。
-- 增加常见问题：skill、plugin、MCP、个性化设置的区别。
-- 引入 `scripts/validate-skills.py`，保证新增 skill 的基本结构一致。
+- 收集更多可公开、可脱敏、可复现的真实项目使用反馈。
+- 根据维护者反馈补充高频场景，并为新增 skill 配套示例和验证记录。
+- 持续复核安装路径、示例索引、治理文件和 CI 检查，避免文档漂移。
 
-## 中期
+## 中长期
 
-- 建立 skill 质量评分标准。
-- 把质量评分标准整理成贡献者 checklist。
-- 整理一份中文 Codex 工作流指南。
-- 为 OpenAI API、GitHub 维护、前端验证、后端排错分别补充专门 skill。
-- 收集 3-5 个真实项目使用案例，记录使用前后差异。
-
-## 长期
-
-- 维护一个稳定的中文 Codex skill 索引。
-- 收集真实项目使用案例。
-- 为优秀第三方 skill 提供中文适配和风险说明。
-- 形成一套中文开源维护者的 Codex 最佳实践。
+- 建立稳定的中文 Codex skill 索引和质量评分标准。
+- 为优秀第三方 skill 提供中文适配、风险说明和维护建议。
+- 形成一套有公开证据支撑的中文开源维护者 Codex 最佳实践。
