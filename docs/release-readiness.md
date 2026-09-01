@@ -1,6 +1,7 @@
-# Release Readiness
+# Release and Maintainer Readiness
 
-This document tracks what is needed before tagging `v0.1.0`.
+This document tracks the published release state and the next evidence-based
+readiness checks for ongoing maintenance.
 
 ## Current status
 
@@ -37,7 +38,7 @@ This document tracks what is needed before tagging `v0.1.0`.
   - web extraction
   - small verified coding changes
 
-## Remaining before v0.1.0
+## Historical `v0.1.0` checklist
 
 - [x] Add 2-4 more high-quality skills or example outputs.
 - [x] Add at least one sample output for issue triage, PR review, or CI diagnosis.
@@ -46,15 +47,30 @@ This document tracks what is needed before tagging `v0.1.0`.
 - [x] Add a first-release checklist.
 - [x] Publish `v0.1.0`.
 
+These items are complete historical context. They are retained so the original
+release decision remains auditable; they are not an outstanding gate for the
+current branch.
+
 ## Post-v0.1.0 status
 
 The public `v0.1.0` tag exists but points to an older application-materials baseline. Do not rewrite that tag. Later validation, CI, security, installation, and README hardening were packaged in the follow-up `v0.1.1` patch tag.
 
 Use [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md) as the audit trail for that follow-up patch tag.
 
+## Next readiness checks
+
+- [x] Keep the 12-skill collection passing local and public CI validation.
+- [x] Keep installation, example-index, governance, and application-evidence
+  documentation synchronized with the repository.
+- [ ] Collect an externally submitted or independently replayed maintainer
+  workflow report with sanitized evidence.
+- [ ] Decide whether the next release should package new skills, eval evidence,
+  or documentation-only maintenance.
+
 ## Release criteria
 
-Do not tag `v0.1.0` just because the repository exists. Tag only when:
+For the next release, do not tag merely because the repository has changed.
+Tag only when:
 
 - all skills pass validation,
 - each skill package includes a maintainer-facing `README.md`,

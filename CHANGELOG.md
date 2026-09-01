@@ -4,6 +4,9 @@
 
 ### Added
 
+- Clarified release-readiness tracking so the completed `v0.1.0` checklist is
+  historical context and current checks focus on maintainer evidence and the
+  next release decision.
 - Updated the public roadmap to distinguish shipped OSS-readiness work from the next feedback and evidence priorities.
 - Added a current application evidence snapshot covering the latest public heads, validation status, and honest adoption-claim boundaries.
 - Added validation that maintainer feedback and usage-report templates list every current skill, preventing intake drift as the collection grows.
