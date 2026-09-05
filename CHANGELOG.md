@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added a 2026-09-05 application evidence snapshot refreshing public heads,
+  validation status, repository counts, and claim boundaries.
 - Clarified release-readiness tracking so the completed `v0.1.0` checklist is
   historical context and current checks focus on maintainer evidence and the
   next release decision.
