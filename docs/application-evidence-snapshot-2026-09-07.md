@@ -8,10 +8,14 @@ to current public repository evidence instead of broad adoption claims.
 Checked on 2026-09-07 with GitHub REST metadata, public refs, and workflow
 status.
 
-| Repository | Public head | Latest public commit | Stars | Forks | Open issues | Latest validate run |
+| Repository | Evidence commit observed before this refresh | Latest public commit | Stars | Forks | Open issues | Latest validate run |
 | --- | --- | --- | ---: | ---: | ---: | --- |
-| `zhuwujing28-del/codex-skills-cn` | `132f68c` | Refresh application evidence snapshot | 1 | 0 | 7 | success on `132f68c`, run #55, 2026-09-05T23:22:36+08:00 |
+| `zhuwujing28-del/codex-skills-cn` | `11d7957` | Refresh application evidence snapshot | 1 | 0 | 7 | success on `11d7957`, run #56, 2026-09-07T15:42:28+08:00 |
 | `zhuwujing28-del/agent-evals-cn` | `6d137a2` | Refresh application evidence snapshot | 1 | 0 | 2 | success on `6d137a2`, run #70, 2026-09-07T07:39:46+08:00 |
+
+The commits above are the validated evidence commits observed before this
+documentation refresh. They should not be read as a self-referential claim that
+this file's own commit is already independently validated.
 
 ## Evidence that is safe to cite
 

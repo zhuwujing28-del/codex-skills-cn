@@ -4,6 +4,9 @@
 
 ### Added
 
+- Refreshed the 2026-09-07 application evidence snapshot so current public
+  evidence commits, workflow status, and claim boundaries stay auditable without
+  making self-referential head claims.
 - Added a 2026-09-07 application evidence snapshot aligned with the latest
   public heads, validation runs, repository counts, and claim boundaries.
 - Added a 2026-09-05 application evidence snapshot refreshing public heads,
