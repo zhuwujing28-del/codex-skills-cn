@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added a 2026-09-07 application evidence snapshot aligned with the latest
+  public heads, validation runs, repository counts, and claim boundaries.
 - Added a 2026-09-05 application evidence snapshot refreshing public heads,
   validation status, repository counts, and claim boundaries.
 - Clarified release-readiness tracking so the completed `v0.1.0` checklist is
