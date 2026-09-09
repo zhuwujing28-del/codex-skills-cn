@@ -4,6 +4,9 @@
 
 ### Added
 
+- Added `scripts/validate-cross-repo.ps1` to run both repository validators
+  from one command when `codex-skills-cn` and `agent-evals-cn` are checked out
+  together.
 - Refreshed the 2026-09-07 application evidence snapshot so current public
   evidence commits, workflow status, and claim boundaries stay auditable without
   making self-referential head claims.

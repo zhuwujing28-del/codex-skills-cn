@@ -15,7 +15,9 @@
 2. 在 `skills/<skill-name>/` 下新增或修改内容。
 3. 按 `docs/skill-template.md` 补齐说明。
 4. 运行 `python scripts/validate-skills.py`。
-5. 提交 Pull Request，并说明适用场景和测试方式。
+5. 如果同时修改了相邻的 `agent-evals-cn`，运行
+   `.\scripts\validate-cross-repo.ps1`，或使用 `-AgentEvalsPath` 指定路径。
+6. 提交 Pull Request，并说明适用场景和测试方式。
 
 ## PR 说明建议
 

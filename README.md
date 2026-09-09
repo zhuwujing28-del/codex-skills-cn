@@ -110,6 +110,18 @@ Copy-Item -Recurse .\skills\karpathy-style-coding C:\Users\<你的用户名>\.co
 python .\scripts\validate-skills.py
 ```
 
+如果同时检出相邻的 `agent-evals-cn`，可以从本仓库运行一次跨仓库检查：
+
+```powershell
+.\scripts\validate-cross-repo.ps1
+```
+
+如果两个仓库不在相邻目录，可显式指定 eval 仓库路径：
+
+```powershell
+.\scripts\validate-cross-repo.ps1 -AgentEvalsPath C:\path\to\agent-evals-cn
+```
+
 检查范围包括：
 
 - `SKILL.md` 是否存在。
