@@ -4,6 +4,8 @@
 
 ### Added
 
+- Clarified that the dated application evidence snapshot is a point-in-time
+  record and must be refreshed against current GitHub state before reuse.
 - Added `scripts/validate-cross-repo.ps1` to run both repository validators
   from one command when `codex-skills-cn` and `agent-evals-cn` are checked out
   together.

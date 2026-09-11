@@ -9,8 +9,8 @@ readiness checks for ongoing maintenance.
 - Validation: `python scripts/validate-skills.py` passes and checks skill packages, local docs links, complete/stale example index coverage, and required OSS governance files
 - CI: GitHub Actions runs the same validation on push and pull request, surfaced by a README badge
 - Latest maintainer readiness report: [`maintainer-readiness-2026-07-04.md`](maintainer-readiness-2026-07-04.md)
-- Latest application evidence snapshot: [`application-evidence-snapshot-2026-09-07.md`](application-evidence-snapshot-2026-09-07.md)
-- Current application evidence snapshot: [`application-evidence-snapshot-2026-09-07.md`](application-evidence-snapshot-2026-09-07.md)
+- Latest archived application evidence snapshot: [`application-evidence-snapshot-2026-09-07.md`](application-evidence-snapshot-2026-09-07.md)
+- Snapshot freshness: this is a point-in-time record from September 7, 2026, not a live repository-status claim; recheck GitHub before using it in a new application or release decision.
 - Latest post-tag audit: [`post-v0.1.0-audit-2026-07-13.md`](post-v0.1.0-audit-2026-07-13.md)
 - Release checklist: [`release-checklist.md`](release-checklist.md)
 - Patch release checklist: [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md)
