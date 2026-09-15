@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added a 2026-09-15 application evidence snapshot tied to the latest
+  observed public heads and successful validation runs.
 - Clarified that the dated application evidence snapshot is a point-in-time
   record and must be refreshed against current GitHub state before reuse.
 - Added `scripts/validate-cross-repo.ps1` to run both repository validators
