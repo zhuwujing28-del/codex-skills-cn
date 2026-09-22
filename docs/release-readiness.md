@@ -8,6 +8,10 @@ readiness checks for ongoing maintenance.
 - Skills: 12
 - Validation: `python scripts/validate-skills.py` passes and checks skill packages, local docs links, complete/stale example index coverage, and required OSS governance files
 - CI: GitHub Actions runs the same validation on push and pull request, surfaced by a README badge
+- Cross-repository validation: manually trigger
+  [`.github/workflows/cross-repo-validate.yml`](../.github/workflows/cross-repo-validate.yml)
+  to validate this repository together with the public `agent-evals-cn/main`
+  baseline before an application or release review.
 - Latest maintainer readiness report: [`maintainer-readiness-2026-07-04.md`](maintainer-readiness-2026-07-04.md)
 - Latest archived application evidence snapshot: [`application-evidence-snapshot-2026-09-15.md`](application-evidence-snapshot-2026-09-15.md)
 - Snapshot freshness: this is a point-in-time record from September 15, 2026, not a live repository-status claim; recheck GitHub before using it in a new application or release decision.
@@ -60,6 +64,8 @@ Use [`v0.1.1-release-checklist.md`](v0.1.1-release-checklist.md) as the audit tr
 ## Next readiness checks
 
 - [x] Keep the 12-skill collection passing local and public CI validation.
+- [x] Provide a public manual cross-repository validation workflow for
+  application and release reviews.
 - [x] Keep installation, example-index, governance, and application-evidence
   documentation synchronized with the repository.
 - [ ] Collect an externally submitted or independently replayed maintainer

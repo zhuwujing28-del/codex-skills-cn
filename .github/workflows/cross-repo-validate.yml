@@ -1,0 +1,29 @@
+name: cross-repo-validate
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codex-skills-cn
+        uses: actions/checkout@v4
+
+      - name: Checkout agent-evals-cn
+        uses: actions/checkout@v4
+        with:
+          repository: zhuwujing28-del/agent-evals-cn
+          path: agent-evals-cn
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate both repositories
+        shell: pwsh
+        run: ./scripts/validate-cross-repo.ps1 -AgentEvalsPath ./agent-evals-cn

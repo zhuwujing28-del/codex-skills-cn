@@ -4,6 +4,9 @@
 
 ### Added
 
+- Added a manually triggered cross-repository GitHub Actions workflow that
+  validates `codex-skills-cn` together with the public `agent-evals-cn/main`
+  baseline before an application or release review.
 - Added a 2026-09-15 application evidence snapshot tied to the latest
   observed public heads and successful validation runs.
 - Clarified that the dated application evidence snapshot is a point-in-time
