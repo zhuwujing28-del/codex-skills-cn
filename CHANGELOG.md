@@ -4,6 +4,8 @@
 
 ### Added
 
+- Pinned the validation workflow to `ubuntu-24.04` so CI does not change
+  implicitly during GitHub's October 19, 2026 `ubuntu-latest` migration.
 - Added a manually triggered cross-repository GitHub Actions workflow that
   validates `codex-skills-cn` together with the public `agent-evals-cn/main`
   baseline before an application or release review.
