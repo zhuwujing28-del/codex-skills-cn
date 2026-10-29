@@ -12,16 +12,16 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout codex-skills-cn
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Checkout agent-evals-cn
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: zhuwujing28-del/agent-evals-cn
           path: agent-evals-cn
           ref: main
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 

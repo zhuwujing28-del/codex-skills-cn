@@ -4,6 +4,8 @@
 
 ### Added
 
+- Updated GitHub Actions to Node 24-compatible major releases after CI began
+  reporting Node 20 deprecation warnings.
 - Pinned the manually triggered cross-repository validation workflow to
   `ubuntu-24.04` so it uses the same runner baseline as the required checks.
 - Pinned the validation workflow to `ubuntu-24.04` so CI does not change
