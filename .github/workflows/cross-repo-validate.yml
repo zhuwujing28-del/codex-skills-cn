@@ -8,7 +8,8 @@ permissions:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    # Keep manual cross-repo validation stable across runner migrations.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout codex-skills-cn
         uses: actions/checkout@v4

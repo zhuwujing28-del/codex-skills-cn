@@ -4,6 +4,8 @@
 
 ### Added
 
+- Pinned the manually triggered cross-repository validation workflow to
+  `ubuntu-24.04` so it uses the same runner baseline as the required checks.
 - Pinned the validation workflow to `ubuntu-24.04` so CI does not change
   implicitly during GitHub's October 19, 2026 `ubuntu-latest` migration.
 - Added a manually triggered cross-repository GitHub Actions workflow that
